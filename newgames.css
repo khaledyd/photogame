@@ -1,0 +1,118 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.navbar{
+    background-color: #252A34;
+    display: flex;
+
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    color: #08D9D6;
+    margin-left: 35%;
+    list-style: none;
+    font-size: large;
+   
+
+}
+.nav-home{
+    padding: 20px;
+}
+.nav-rules{
+    padding: 20px;
+}
+.nav-games{
+    padding: 20px;
+}
+a:link {
+    color:#08D9D6;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #08D9D6;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:#08D9D6;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #08D9D6;
+    text-decoration: none;
+  }
+.title{
+    margin-left: 40%;
+    color: #FF2E63;
+    margin-top: 150px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 50px;
+    
+}
+#myFile{
+    margin-top: 15px;
+    
+}
+input[type=file]::file-selector-button {
+    border: none;
+    padding: .2em .4em;
+    background-color:#252A34;
+    transition: 1s;
+    color: #08D9D6;
+    padding: 10px;
+  }
+
+
+.create{
+    margin-top: 200px;
+    margin-left: 40%;
+    font-size: larger;
+}
+.create-item{
+    background-color: #FF2E63;
+    font-size: larger;
+    padding: 10px;
+    border: none;
+    color: #08D9D6;
+}
+footer{
+    background-color: #252A34;
+    display: flex;
+    margin-top: 160px;
+
+}
+.footeritem{
+    display: flex;
+    justify-content: space-between;
+    color: #08D9D6;
+    margin-left: 35%;
+    list-style: none;
+    font-size: large;
+    text-align: center;
+   
+
+}
+.footer-home{
+    padding: 20px;
+}
+.footer-rules{
+    padding: 20px;
+}
+.footer-games{
+    padding: 20px;
+}

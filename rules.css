@@ -1,0 +1,100 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.navbar{
+    background-color: #252A34;
+    display: flex;
+
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+    color: #08D9D6;
+    margin-left: 35%;
+    list-style: none;
+    font-size: large;
+   
+
+}
+.nav-home{
+    padding: 20px;
+}
+.nav-rules{
+    padding: 20px;
+}
+.nav-games{
+    padding: 20px;
+}
+a:link {
+    color:#08D9D6;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #08D9D6;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:#08D9D6;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #08D9D6;
+    text-decoration: none;
+  }
+.rules-title{
+    font-size: large;
+    margin-top: 150px;
+    color: #08D9D6;
+    background-color: #252A34;
+    width: fit-content;
+    padding: 20px;
+    
+}
+.gamerules{
+    margin-left: 40%;
+}
+
+.gamerulesitems{
+    padding: 10px;
+    color: #08D9D6;
+    font-size: large;
+}
+
+
+
+
+
+footer{
+    background-color: #252A34;
+    display: flex;
+    margin-top: 200px;
+
+}
+.footeritem{
+    display: flex;
+    justify-content: space-between;
+    color: #08D9D6;
+    margin-left: 35%;
+    list-style: none;
+    font-size: large;
+    text-align: center;
+   
+
+}
+.footer-home{
+    padding: 20px;
+}
+.footer-rules{
+    padding: 20px;
+}
+.footer-games{
+    padding: 20px;
+}
